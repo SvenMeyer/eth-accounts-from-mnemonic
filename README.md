@@ -20,6 +20,7 @@ $ node eth-accounts-from-mnemonic.js 'your twelve word mnemonic goes here your t
 
 ```
 $ node eth-accounts-from-mnemonic.js 'myth slice august trophy letter display elephant accuse absorb enjoy hawk course'
+
 0 0xc216776c1384172dbb1191d1fe3b0d98ab03c3aa ca7515ab688b7ea44630917cebfbe648c4fb7bc725a0e12a9e95e931714f065b
 1 0x667eac04cff17047cdcc621007bb1156bc3c2151 ba044ed83f19b3251aa1ffc9d1a8f480ee95329b41aa08fa5ad04f4edadaa9da
 2 0x7956765be744f64eba4da0b47b43efbd00c5f160 5e99758e0129086a3ad55fae6bb2bb13a8b4facd82212c9f506d4870345105f7
