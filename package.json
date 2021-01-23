@@ -1,0 +1,14 @@
+{
+  "name": "eth-accounts-from-mnemonic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "eth-accounts-from-mnemonic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sven Meyer",
+  "license": "MIT",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.2.1"
+  }
+}
