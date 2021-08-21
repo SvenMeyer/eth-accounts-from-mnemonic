@@ -8,8 +8,6 @@ const HDWalletProvider = require('@truffle/hdwallet-provider');
 
 const args = process.argv.slice(2)
 
-console.log(args);
-
 const mnemonic = args[0];
 
 const amount = (args[1] === undefined ? 10 : args[1]);
