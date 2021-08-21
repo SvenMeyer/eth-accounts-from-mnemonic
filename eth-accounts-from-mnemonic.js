@@ -8,9 +8,13 @@ const HDWalletProvider = require('@truffle/hdwallet-provider');
 
 const args = process.argv.slice(2)
 
+console.log(args);
+
 const mnemonic = args[0];
 
-const wallet = new HDWalletProvider(mnemonic, "http://localhost:8545");
+const amount = (args[1] === undefined ? 10 : args[1]);
+
+const wallet = new HDWalletProvider(mnemonic, "http://localhost:8545", 0, amount);
 
 const keys = Object.keys(wallet.wallets);
 
