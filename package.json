@@ -9,6 +9,8 @@
   "author": "Sven Meyer",
   "license": "MIT",
   "dependencies": {
-    "@truffle/hdwallet-provider": "^1.2.1"
+    "@truffle/hdwallet-provider": "^1.2.1",
+    "command-line-args": "^5.2.1",
+    "web3": "^4.0.1"
   }
 }
