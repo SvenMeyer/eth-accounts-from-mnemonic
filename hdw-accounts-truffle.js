@@ -18,6 +18,7 @@ const optionDefinitions = [
 
 const commandLineArgs = require('command-line-args')
 const options = commandLineArgs(optionDefinitions)
+if (options.number < 1) {options.number = 1};
 
 console.log({options});
 
