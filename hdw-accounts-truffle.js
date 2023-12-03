@@ -1,5 +1,5 @@
 // usage :
-// $ node hdw-accounts-truffle-web3.js 'seed words ....'
+// $ node hdw-accounts-truffle.js -k -n 32 -m 'seed words ....'
 
 // https://github.com/trufflesuite/truffle/tree/develop/packages/hdwallet-provider
 // https://github.com/ethereum/web3.js
